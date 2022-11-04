@@ -1,3 +1,4 @@
+#text, number of words
 def words_counter(text):
     words = text.split()
     words_count = len(words)
