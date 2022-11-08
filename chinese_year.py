@@ -5,3 +5,7 @@ def zodiac_year_qualifier(year):
     return(year_animal)
 
 print(zodiac_year_qualifier(int(input()))) 
+
+if  __name__ == "__main__":
+    year_user = int(input())
+    print(zodiac_year_qualifier(int(input()))) 
